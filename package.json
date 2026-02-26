@@ -1,0 +1,37 @@
+{
+  "name": "inter-pdf-parse",
+  "version": "1.0.0",
+  "description": "Parse Banco Inter Global PDF statements into CSV format",
+  "main": "dist/index.js",
+  "bin": {
+    "inter-pdf-parse": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "clean": "rm -rf dist",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "banco-inter",
+    "pdf-parser",
+    "csv",
+    "finance"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "commander": "^12.0.0",
+    "csv-writer": "^1.6.0",
+    "pdf-parse": "^1.1.1",
+    "yahoo-finance2": "^3.11.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/pdf-parse": "^1.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}

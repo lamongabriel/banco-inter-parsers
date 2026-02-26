@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.local
+
+# Cache
+.ticker-cache.json
+
+# Old source files
+parse-inter.js
+output.csv
+input.pdf
+
+# Input/Output directories
+input/*.pdf
+output/*.csv
+!input/.gitkeep
+!output/.gitkeep
+
+# Test files
+*.test.ts
+test/
