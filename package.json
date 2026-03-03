@@ -1,22 +1,25 @@
 {
-  "name": "inter-pdf-parse",
-  "version": "1.0.0",
-  "description": "Parse Banco Inter Global PDF statements into CSV format",
-  "main": "dist/index.js",
+  "name": "banco-inter-parsers",
+  "version": "2.0.0",
+  "description": "Parse Banco Inter statements - PDF investments and CSV checking account",
+  "main": "dist/interactive.js",
   "bin": {
-    "inter-pdf-parse": "./dist/index.js"
+    "banco-inter-parsers": "./dist/interactive.js"
   },
   "scripts": {
     "build": "tsc",
-    "start": "node dist/index.js",
-    "dev": "ts-node src/index.ts",
+    "start": "node dist/interactive.js",
+    "dev": "ts-node src/interactive.ts",
     "clean": "rm -rf dist",
     "prepublish": "npm run build"
   },
   "keywords": [
     "banco-inter",
     "pdf-parser",
-    "csv",
+    "csv-parser",
+    "csv-cleaner",
+    "checking-account",
+    "investments",
     "finance"
   ],
   "author": "",

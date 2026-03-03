@@ -38,8 +38,8 @@ output.csv
 input.pdf
 
 # Input/Output directories
-input/*.pdf
-output/*.csv
+input/**
+output/**
 !input/.gitkeep
 !output/.gitkeep
 
